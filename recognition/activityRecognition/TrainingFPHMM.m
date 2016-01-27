@@ -1,94 +1,40 @@
 
 %% training FPHMM
-path0 = '/Users/qiwang/Documents/matlab projects/';
+path0 = getenv('FPHMM_PATH')
 addpath(genpath(strcat(path0,'fullyParameterizedHMM\Project\recognition\activityRecognition')));
 addpath(genpath(strcat(path0,'fullyParameterizedHMM\HMMall')));
 addpath(genpath(strcat(path0,'fullyParameterizedHMM\ContextualModel')));
-addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition/Classifiers/data001')));
-load('dataSet_001_TrainingTest.mat')
+addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition')));
+addpath(genpath(strcat(path0,'fullyParameterizedHMM\Project')))
+addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition/Classifiers/data001/')));
+addpath(genpath(strcat(path0,'fullyParameterizedHMM/HMMall/HMM')));
+addpath(genpath(strcat(path0,'fullyParameterizedHMM/HMMall/KPMstats')));
+addpath(genpath(strcat(path0,'fullyParameterizedHMM/HMMall/KPMtools')));
+addpath(genpath(strcat(path0,'fullyParameterizedHMM/HMMall/netlab3.3')));
+if isPrepareData  ==0
+	load('dataSet_001_TrainingTest.mat');
+end
 %% 
-K =1;
-K_CV_FPHMMCell = cell(K,1);
-left2rightHMMtopology = 0;
+%save the initialized thetas
 initTheta = cell(K,1);
+for i = 1:K
+	initTheta{i,1} = contextualVector;
+end
+
+K_CV_FPHMMCell = cell(K,1);
 
 for indFold = 1:K
 fprintf('indFold = %d\n',indFold);
 trainingSet = K_TrainingSet{indFold,1};
-numStates = 8;%8
-numMix = 1;
-% max_iter = 10;
-mxIter_FPHMM = 100;%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-FPHMM_HMM_init_Iter = 30;  %!!!!!!!!!!!!!!!!!!!!!!!!!!
-isNormalized = 0;%!!!!!!!!!!!!!!!!!
 %%counting sample numbers
 %count the sequence number of each activity
 totalNumTraining = zeros(numActivity,1);
-parfor indAct = 1:numActivity
+for indAct = 1:numActivity
     for indEm = 1: numEmotion
         totalNumTraining(indAct,1) = totalNumTraining(indAct,1) + size(trainingSet{indAct,indEm},1);
     end    
 end
-%%training a FPHMM for each activity %%
-%define dimension of theta
-theta_dim = 3;%!!!!!!!!!!!!!!!!!
-contextualVector = cell(numEmotion,1);% save thetas values
-% contextualVector{1,1} = [0.8;0.2];
-% contextualVector{2,1} = [0.6;0.4];
-% contextualVector{3,1} = [0.4;0.6];
-% contextualVector{4,1} = [0.2;0.8];
-% contextualVector{5,1} = [-0.2;-0.8];
-% contextualVector{6,1} = [-0.4;-0.6];
-% contextualVector{7,1} = [-0.6;-0.4];
-% contextualVector{8,1} = [-0.8;-0.2];
-% contextualVector{1,1} = rand(2,1);
-% contextualVector{2,1} = rand(2,1);
-% contextualVector{3,1} = rand(3,1);
-% contextualVector{4,1} = [0.5;0.5;0.5];
-% contextualVector{5,1} = rand(3,1);
-% contextualVector{6,1} = rand(3,1);
-% contextualVector{7,1} = rand(3,1);
-% contextualVector{8,1} = rand(3,1);
-
-contextualVector{1,1} = [rand;rand;rand];
-contextualVector{2,1} = [rand;rand;rand];
-contextualVector{3,1} = [rand;rand;rand];
-contextualVector{4,1} = [rand;rand;rand];
-initTheta{K,1} =contextualVector;
-% contextualVector{1,1} = [1;1];
-% contextualVector{2,1} = [1;1];
-% contextualVector{3,1} = [1;1];
-% contextualVector{4,1} = [1;1];
-% contextualVector{5,1} = [-1;-1];
-% contextualVector{6,1} = [-1;-1];
-% contextualVector{7,1} = [-1;-1];
-% contextualVector{8,1} = [-1;-1];
-% contextualVector{1,1} = [1;0;0;0;0;0;0;0];
-% contextualVector{2,1} = [0;1;0;0;0;0;0;0];
-% contextualVector{3,1} = [0;0;1;0;0;0;0;0];
-% contextualVector{4,1} = [0;0;0;1;0;0;0;0];
-% contextualVector{5,1} = [0;0;0;0;1;0;0;0];
-% contextualVector{6,1} = [0;0;0;0;0;1;0;0];
-% contextualVector{7,1} = [0;0;0;0;0;0;1;0];
-% contextualVector{8,1} = [0;0;0;0;0;0;0;1];
-
-% contextualVector{1,1} = [0.1;-0.2];
-% contextualVector{2,1} = [-0.2;0.4];
-% contextualVector{3,1} = [0.32;0.23];
-% contextualVector{4,1} = [0.2;-0.34];
-% contextualVector{5,1} = [-0.5;0.8];
-% contextualVector{6,1} = [-0.98;-0.12];
-% contextualVector{7,1} = [-0.2;-0.3];
-% contextualVector{8,1} = [-0.8;0.2];
-
-% contextualVector{1,1} = [0.8477;-0.3622];
-% contextualVector{2,1} = [0.0712;-0.1882];
-% contextualVector{3,1} = [0.7215;-0.2533];
-% contextualVector{4,1} = [0.8563;1];
-% contextualVector{5,1} = [0.4747;-1];
-% contextualVector{6,1} = [1;0.2450];
-% contextualVector{7,1} = [-1;-0.8709];
-% contextualVector{8,1} = [-0.6100;-0.4065];
+contextualVector = initTheta{indFold,1};
 
 FPHMMCell = cell(numActivity,1);
 
@@ -105,7 +51,7 @@ previous_loglik = repmat(-inf,[numActivity,1]);
 loglik = zeros(numActivity,1);
 indIteration = 1;
 converged = zeros(numActivity,1);
-thetasIterationCell = cell(numActivity,numEmotion);
+thetasIterationCell = cell(mxIter_FPHMM,numEmotion);
 
 while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
     fprintf('Iteration %d :compute W ...\n',indIteration);
@@ -213,6 +159,7 @@ while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
         end%if indIteration ==1
         
         %compute W for each activity
+        thetasIterationCell(indIteration,:) = contextualVector(:,1);
         disp('compute W for each activity');
         fprintf('Iteration %d: compute W for activity %d\n',indIteration,indAct);
         hmmParameterSet = struct('prior1', priorCell{indAct,1}, 'transmat1', transmatCell{indAct,1}, 'mu1', muCell{indAct,1}, 'Sigma1', SigmaCell{indAct,1}, 'mixmat1', mixmatCell{indAct,1});
@@ -295,7 +242,6 @@ while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
 %         if indEm == 4
 %             contextualVector{indEm,1} = [0.5;0.5;0.5];
 %         end
-        thetasIterationCell{indIteration,indEm} = contextualVector{indEm,1};
     end%indEm
     %normalize thetas
     thetasMat = zeros(theta_dim, numEmotion);
@@ -355,15 +301,18 @@ K_CV_FPHMMCell{indFold,1} = FPHMMCell;
 end
 
 %%test FPHMM
-TestFPHMM
+%TestFPHMM
 disp('FPHMM');
-fprintf('%.2f%%\n',CV_Accuracy_FPHMM_knownEm(1,10)*100);
-fprintf('%.2f%%\n',CV_Variance_FPHMM_knownEm(1,1)*100);
+save('-mat7-binary','K_CV.mat','K_CV_FPHMMCell');
 
-fprintf('%.2f%%\n',CV_Accuracy_FPHMM_unknownEm(1,10)*100);
-fprintf('%.2f%%\n',CV_Variance_FPHMM_unknownEm(1,1)*100);
 
-fprintf('%d+%d iteration FPHMM',FPHMM_HMM_init_Iter,mxIter_FPHMM);
+%fprintf('%.2f%%\n',CV_Accuracy_FPHMM_knownEm(1,10)*100);
+%fprintf('%.2f%%\n',CV_Variance_FPHMM_knownEm(1,1)*100);
+
+%fprintf('%.2f%%\n',CV_Accuracy_FPHMM_unknownEm(1,10)*100);
+%fprintf('%.2f%%\n',CV_Variance_FPHMM_unknownEm(1,1)*100);
+
+%fprintf('%d+%d iteration FPHMM',FPHMM_HMM_init_Iter,mxIter_FPHMM);
 % disp('save all variables....')
 % save_path = strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition/Classifiers/data001/');
 % save_file_name = strcat(save_path,'data001_LearnThetas_',num2str(numActivity),'Act_',num2str(numEmotion),'Em_',num2str(numStates),'St_',num2str(K),'CV_',num2str(FPHMM_HMM_init_Iter),'+',num2str(mxIter_FPHMM),'FPHMM_Classifier_AllVariables.mat');

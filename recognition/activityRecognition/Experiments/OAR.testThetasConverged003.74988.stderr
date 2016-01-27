@@ -1,0 +1,19 @@
+warning: docstring file '/usr/share/octave/3.8.2/etc/built-in-docstrings' not found
+warning: function /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/Project/test.m shadows a core library function
+warning: function /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMtools/strsplit.m shadows a core library function
+warning: function /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMtools/factorial.m shadows a core library function
+warning: function /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMtools/chi2inv.m shadows a core library function
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/pca.m: possible Matlab-style short-circuit operator at line 32, column 26
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/pca.m: possible Matlab-style short-circuit operator at line 32, column 18
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/eigdec.m: possible Matlab-style short-circuit operator at line 20, column 26
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/eigdec.m: possible Matlab-style short-circuit operator at line 20, column 18
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMtools/mk_stochastic.m: possible Matlab-style short-circuit operator at line 12, column 18
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMtools/mk_stochastic.m: possible Matlab-style short-circuit operator at line 12, column 34
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/kmeansNetlab.m: possible Matlab-style short-circuit operator at line 109, column 58
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/HMM/mhmm_em.m: possible Matlab-style short-circuit operator at line 36, column 23
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/HMM/mhmm_em.m: possible Matlab-style short-circuit operator at line 83, column 13
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/HMM/mhmm_em.m: possible Matlab-style short-circuit operator at line 67, column 30
+warning: isstr is obsolete and will be removed from a future version of Octave, please use ischar instead
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMstats/mixgauss_prob.m: possible Matlab-style short-circuit operator at line 40, column 17
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMtools/sqdist.m: possible Matlab-style short-circuit operator at line 20, column 17
+warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/HMM/fwdback.m: possible Matlab-style short-circuit operator at line 126, column 16

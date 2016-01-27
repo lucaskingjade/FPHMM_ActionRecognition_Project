@@ -3,7 +3,7 @@
 function [result,origin,dim,timeStep ] = importMotionData( filePath,number)
 %IMPORTMOTIONDATA Summary of this function goes here
 %   Detailed explanation goes here
-x=load(filePath);
+x=load(filePath,'-mat');
 name = fieldnames(x);
 data = x.(name{1});
 dataShape = size(data);

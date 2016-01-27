@@ -1,0 +1,2647 @@
+GNU Octave, version 3.8.2
+Copyright (C) 2014 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-redhat-linux-gnu".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/get-involved.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+path0 = /data1/home/wang.qi/OctaveProject/
+path0 = /data1/home/wang.qi/OctaveProject/
+numActivity =  2
+numEmotion =  2
+'pca.m' is the file /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/pca.m
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   326
+
+ans =
+
+    69   326
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   273
+
+ans =
+
+    69   599
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   313
+
+ans =
+
+    69   912
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   350
+
+ans =
+
+     69   1262
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   354
+
+ans =
+
+     69   1616
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   269
+
+ans =
+
+     69   1885
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   273
+
+ans =
+
+     69   2158
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   303
+
+ans =
+
+     69   2461
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   335
+
+ans =
+
+     69   2796
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   198
+
+ans =
+
+     69   2994
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   301
+
+ans =
+
+     69   3295
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   316
+
+ans =
+
+     69   3611
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1370
+
+ans =
+
+     69   4981
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1346
+
+ans =
+
+     69   6327
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   985
+
+ans =
+
+     69   7312
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   853
+
+ans =
+
+     69   8165
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   746
+
+ans =
+
+     69   8911
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   713
+
+ans =
+
+     69   9624
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1285
+
+ans =
+
+      69   10909
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1165
+
+ans =
+
+      69   12074
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1438
+
+ans =
+
+      69   13512
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1570
+
+ans =
+
+      69   15082
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1101
+
+ans =
+
+      69   16183
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   989
+
+ans =
+
+      69   17172
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   378
+
+ans =
+
+      69   17550
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   320
+
+ans =
+
+      69   17870
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   252
+
+ans =
+
+      69   18122
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   346
+
+ans =
+
+      69   18468
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   676
+
+ans =
+
+      69   19144
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   321
+
+ans =
+
+      69   19465
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   339
+
+ans =
+
+      69   19804
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   388
+
+ans =
+
+      69   20192
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   328
+
+ans =
+
+      69   20520
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   263
+
+ans =
+
+      69   20783
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   276
+
+ans =
+
+      69   21059
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   409
+
+ans =
+
+      69   21468
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  12x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1558
+
+ans =
+
+      69   23026
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1730
+
+ans =
+
+      69   24756
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1450
+
+ans =
+
+      69   26206
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1344
+
+ans =
+
+      69   27550
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   642
+
+ans =
+
+      69   28192
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   624
+
+ans =
+
+      69   28816
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   524
+
+ans =
+
+      69   29340
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   641
+
+ans =
+
+      69   29981
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1104
+
+ans =
+
+      69   31085
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1143
+
+ans =
+
+      69   32228
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1689
+
+ans =
+
+      69   33917
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   2041
+
+ans =
+
+      69   35958
+
+size of allDataCell is [2,2]
+size of allData is [69,35958]
+'pca.m' is the file /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/pca.m
+wangqitest 0.613987
+eigenValue =
+
+   0.613987
+   0.483453
+   0.373311
+   0.320186
+   0.278656
+   0.211868
+   0.163559
+   0.135574
+   0.129740
+   0.125248
+   0.112089
+   0.096278
+   0.088625
+   0.086438
+   0.083814
+   0.078219
+
+eigenValue size is [16,1]
+eigenMatrix size is [69,16]
+      16   35958
+
+path0 = /data1/home/wang.qi/OctaveProject/
+indFold = 1
+Iteration 1 :compute W ...
+indAct is 1Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -45039.705819
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 1
+W, iteration 1, loglik = -4310.502444
+saving FPHMM parameters... ... ...
+indAct is 2Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -61716.195669
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 2
+W, iteration 1, loglik = -18253.677479
+saving FPHMM parameters... ... ...
+reach to max iteration.
+Iteration 1: compute thetas
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+Iteration1 : Theta(Unnormalized): 
+Anger:[0.9774,0.7619,]
+Anxiety:[0.8998,0.9710,]
+indFold = 2
+Iteration 1 :compute W ...
+indAct is 1Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -58843.320508
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 1
+W, iteration 1, loglik = -14127.211708
+saving FPHMM parameters... ... ...
+indAct is 2Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -79006.751877
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 2
+W, iteration 1, loglik = -25416.648342
+saving FPHMM parameters... ... ...
+reach to max iteration.
+Iteration 1: compute thetas
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+Iteration1 : Theta(Unnormalized): 
+Anger:[0.9835,0.7687,]
+Anxiety:[0.8952,0.9659,]
+indFold = 3
+Iteration 1 :compute W ...
+indAct is 1Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -50734.779721
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 1
+W, iteration 1, loglik = -7324.425448
+saving FPHMM parameters... ... ...
+indAct is 2Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -85366.388802
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 2
+W, iteration 1, loglik = -29849.786530
+saving FPHMM parameters... ... ...
+reach to max iteration.
+Iteration 1: compute thetas
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+curNumFiles =  9
+ans =
+
+   9   1
+
+copmute theta with C ++
+Iteration1 : Theta(Unnormalized): 
+Anger:[0.9353,0.7223,]
+Anxiety:[0.9043,0.9758,]
+indFold = 4
+Iteration 1 :compute W ...
+indAct is 1Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -66704.500448
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 1
+W, iteration 1, loglik = -20627.694794
+saving FPHMM parameters... ... ...
+indAct is 2Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -79015.391124
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 2
+W, iteration 1, loglik = -22298.234019
+saving FPHMM parameters... ... ...
+reach to max iteration.
+Iteration 1: compute thetas
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+Iteration1 : Theta(Unnormalized): 
+Anger:[0.9044,0.6920,]
+Anxiety:[0.8968,0.9674,]
+indFold = 5
+Iteration 1 :compute W ...
+indAct is 1Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -54444.296594
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 1
+W, iteration 1, loglik = -9572.970053
+saving FPHMM parameters... ... ...
+indAct is 2Initialize all parameters for each FPHMM or each Activity in the first iteration
+train a conventional HMM
+iteration 1, loglik = -63859.112756
+initialization finishing, saving all the initialized parameters...
+compute W for each activity
+Iteration 1: compute W for activity 2
+W, iteration 1, loglik = -19341.346833
+saving FPHMM parameters... ... ...
+reach to max iteration.
+Iteration 1: compute thetas
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+curNumFiles =  10
+ans =
+
+   10    1
+
+copmute theta with C ++
+Iteration1 : Theta(Unnormalized): 
+Anger:[0.9222,0.7083,]
+Anxiety:[0.8987,0.9699,]
+FPHMM
+Begin to test the Emotion Recognition Accuracy of FPHMM
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  12
+totalrightNum =  12
+totalSeqNum =  12
+crossValAccuracy =
+
+   1   0   0
+   0   0   0
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  12
+totalrightNum =  24
+totalSeqNum =  24
+crossValAccuracy =
+
+   1   1   0
+   0   0   0
+
+RightSeqNumber =  24
+AllSeqNumber =  24
+crossValAccuracy =
+
+   1   1   1
+   0   0   0
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  12
+totalrightNum =  12
+totalSeqNum =  12
+crossValAccuracy =
+
+   1   1   1
+   1   0   0
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  12
+totalrightNum =  24
+totalSeqNum =  24
+crossValAccuracy =
+
+   1   1   1
+   1   1   0
+
+RightSeqNumber =  48
+AllSeqNumber =  48
+crossValAccuracy =
+
+   1   1   1
+   1   1   1
+
+crossValAccuracy =
+
+   1   1   1   1
+   1   1   1   0
+
+rightNum =  3
+seqNum =  3
+rightNum =  6
+seqNum =  6
+rightNum =  9
+seqNum =  9
+rightNum =  12
+seqNum =  12
+a new fold
+rightNum =  2
+seqNum =  2
+rightNum =  4
+seqNum =  4
+rightNum =  6
+seqNum =  6
+rightNum =  8
+seqNum =  8
+a new fold
+rightNum =  3
+seqNum =  3
+rightNum =  6
+seqNum =  6
+rightNum =  9
+seqNum =  9
+rightNum =  12
+seqNum =  12
+a new fold
+rightNum =  2
+seqNum =  2
+rightNum =  4
+seqNum =  4
+rightNum =  6
+seqNum =  6
+rightNum =  8
+seqNum =  8
+a new fold
+rightNum =  2
+seqNum =  2
+rightNum =  4
+seqNum =  4
+rightNum =  6
+seqNum =  6
+rightNum =  8
+seqNum =  8
+a new fold
+compute variance of EMOTION accuracy of K folds...
+Congra!Finish!
+Begin to test HMM and FPHMM under the case where Emotion information is known....
+indexPrdtLabel =
+
+   1   1   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1   2
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  12
+totalrightNum =  10
+totalSeqNum =  12
+crossValAccuracy =
+
+   0.83333   0.00000   0.00000
+   0.00000   0.00000   0.00000
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   2   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  12
+totalrightNum =  16
+totalSeqNum =  24
+crossValAccuracy =
+
+   0.83333   0.50000   0.00000
+   0.00000   0.00000   0.00000
+
+RightSeqNumber =  16
+AllSeqNumber =  24
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.00000   0.00000   0.00000
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  12
+totalrightNum =  5
+totalSeqNum =  12
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.41667   0.00000   0.00000
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  12
+totalrightNum =  14
+totalSeqNum =  24
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.41667   0.75000   0.00000
+
+RightSeqNumber =  30
+AllSeqNumber =  48
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.41667   0.75000   0.58333
+
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667   0.62500
+   0.41667   0.75000   0.58333   0.00000
+
+rightNum =  2
+seqNum =  3
+rightNum =  2
+seqNum =  6
+rightNum =  2
+seqNum =  9
+rightNum =  5
+seqNum =  12
+a new fold
+rightNum =  2
+seqNum =  2
+rightNum =  4
+seqNum =  4
+rightNum =  5
+seqNum =  6
+rightNum =  6
+seqNum =  8
+a new fold
+rightNum =  3
+seqNum =  3
+rightNum =  4
+seqNum =  6
+rightNum =  6
+seqNum =  9
+rightNum =  8
+seqNum =  12
+a new fold
+rightNum =  2
+seqNum =  2
+rightNum =  4
+seqNum =  4
+rightNum =  6
+seqNum =  6
+rightNum =  8
+seqNum =  8
+a new fold
+rightNum =  1
+seqNum =  2
+rightNum =  2
+seqNum =  4
+rightNum =  2
+seqNum =  6
+rightNum =  3
+seqNum =  8
+a new fold
+act =
+
+   1   2
+
+indexPrdtLabel =
+
+   1   1   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+Finish the experiment where emotion is known.
+Begin to test HMM and FPHMM under the case where Emotion information is unknown....
+waiting...
+indexPrdtLabel =
+
+   1   1   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   2   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1   2
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  12
+totalrightNum =  10
+totalSeqNum =  12
+crossValAccuracy =
+
+   0.83333   0.00000   0.00000
+   0.00000   0.00000   0.00000
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   2   1
+
+indexTrueLabel =
+
+   1   1   1
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+wq
+seqNum =  12
+totalrightNum =  16
+totalSeqNum =  24
+crossValAccuracy =
+
+   0.83333   0.50000   0.00000
+   0.00000   0.00000   0.00000
+
+RightSeqNumber =  16
+AllSeqNumber =  24
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.00000   0.00000   0.00000
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  12
+totalrightNum =  5
+totalSeqNum =  12
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.41667   0.00000   0.00000
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  3
+indexPrdtLabel =
+
+   1   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  5
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+wq
+seqNum =  8
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  10
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+wq
+seqNum =  12
+totalrightNum =  14
+totalSeqNum =  24
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.41667   0.75000   0.00000
+
+RightSeqNumber =  30
+AllSeqNumber =  48
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667
+   0.41667   0.75000   0.58333
+
+crossValAccuracy =
+
+   0.83333   0.50000   0.66667   0.62500
+   0.41667   0.75000   0.58333   0.00000
+
+act =
+
+   1   2
+
+indexPrdtLabel =
+
+   1   1   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   2   1
+
+indexTrueLabel =
+
+   1   1   1
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   1   1
+
+indexPrdtLabel =
+
+   1   1   1
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   1   1
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   2   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   1   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1   2
+
+indexTrueLabel =
+
+   2   2   2
+
+indexPrdtLabel =
+
+   2   2
+
+indexTrueLabel =
+
+   2   2
+
+indexPrdtLabel =
+
+   2   1
+
+indexTrueLabel =
+
+   2   2
+
+rightNum =  2
+seqNum =  3
+rightNum =  2
+seqNum =  6
+rightNum =  2
+seqNum =  9
+rightNum =  5
+seqNum =  12
+a new fold
+rightNum =  2
+seqNum =  2
+rightNum =  4
+seqNum =  4
+rightNum =  5
+seqNum =  6
+rightNum =  6
+seqNum =  8
+a new fold
+rightNum =  3
+seqNum =  3
+rightNum =  4
+seqNum =  6
+rightNum =  6
+seqNum =  9
+rightNum =  8
+seqNum =  12
+a new fold
+rightNum =  2
+seqNum =  2
+rightNum =  4
+seqNum =  4
+rightNum =  6
+seqNum =  6
+rightNum =  8
+seqNum =  8
+a new fold
+rightNum =  1
+seqNum =  2
+rightNum =  2
+seqNum =  4
+rightNum =  2
+seqNum =  6
+rightNum =  3
+seqNum =  8
+a new fold
+compute variance of accuracy of K folds...
+Congra!Finish!
+tmpThetasCell = 
+{
+  [1,1] = [](0x0)
+  [2,1] = [](0x0)
+  [1,2] = [](0x0)
+  [2,2] = [](0x0)
+}
+i =1
+	indFold = 1

@@ -1,0 +1,1 @@
+oarsub  -p  "host = 'videosense1'" -l "{mem>8}[A,cpu = 2,walltime = 10:0:0" -n "testConvergenceThetas001" "octave ./testThetasConverged.m"

@@ -5,8 +5,10 @@ tmpDataCell = DataCell;
 tmpData = Data;
 numAct = size(tmpDataCell,1);
 numEm = size(tmpDataCell,2);
+which pca.m
 [eigenValue,eigenMatrix]=pca(tmpData',dim);
-display(eigenValue);
+fprintf('wangqitest %f\n',eigenValue(1,1));
+eigenValue
 fprintf('eigenValue size is [%d,%d]\n',size(eigenValue));
 fprintf('eigenMatrix size is [%d,%d]\n',size(eigenMatrix));
 tmpData = eigenMatrix'*tmpData;

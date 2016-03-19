@@ -20,3 +20,8 @@ slprj/
 
 #added by wangqi ,ignore .zip files
 *.zip
+*.stdout
+*.stderr
+*octave-workspace
+*.swp
+*.m~

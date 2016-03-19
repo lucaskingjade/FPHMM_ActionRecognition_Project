@@ -1,4 +1,4 @@
-function [ output_matrix ] = scaling( input_matrix, dimInx)
+function [ output_matrix, maxVector,minVector] = scaling( input_matrix, dimInx)
 %SCALING Summary of this function goes here
 %   Detailed explanation goes here
 if nargin ==2
@@ -24,8 +24,9 @@ if nargin ==2
     else
         output_matrix = tmpOutput;
     end
-else
-    
+if nargout == 3 
+    maxVector = maxCol;
+    minVector = minCol;
 end
 end
 

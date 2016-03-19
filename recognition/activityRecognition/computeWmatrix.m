@@ -23,7 +23,8 @@ function [ LL, prior1, transmat1, commonMean, Sigma1, mixmat1,wSet, zSet] = comp
     [zSet,wSet Sigma1] = pHMM_commonMeanVector(data, thetasSet, gammaSet, mu1);
 
     contextualSignal = struct('contextualMean', 1, 'zSet', {zSet}, 'thetasSet', {thetasSet}, 'transitionLeft2Right',transitionLeft2Right);
-    [ loglik, errors, gammaSet, transmat1] = hmm_logprob_pHMM( data, prior1, transmat1, mu1, Sigma1, mixmat1, contextualSignal );
+
+%    [ loglik, errors, gammaSet, transmat1] = hmm_logprob_pHMM( data, prior1, transmat1, mu1, Sigma1, mixmat1, contextualSignal );
 %     if verbose, fprintf(1, 'loglik = %f\n', loglik); end
 
 %     invOfSigma = cell(size(Sigma1,3),1);

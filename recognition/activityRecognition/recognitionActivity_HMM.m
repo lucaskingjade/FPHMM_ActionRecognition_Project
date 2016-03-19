@@ -1,11 +1,14 @@
-function [ prdtlabel, prdLabelInd,maxloglik ] = recognitionActivity_HMM( dataCell,HMMCell,indexEm )
+function [ prdtlabel, prdLabelInd,maxloglik ] = recognitionActivity_HMM( dataCell,HMMCell,indexEm,actLabels)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
-emLabels = {'Anger','Anxiety','Joy','Neutral','Panic Fear','Pride','Sadness','Shame'};
+%emLabels = {'Anger','Anxiety','Joy','Neutral','Panic Fear','Pride','Sadness','Shame'};
 % actLabels = {'Sitting Down','Move Books','Simple Walk','Walk with smth in the Hands'};
-actLabels = {'Simple Walk','Walk with smth in the Hands'};
-numEmotion = length(emLabels);
-numActivity = length(actLabels);
+%actLabels = {'Simple Walk','Walk with smth in the Hands'};
+if isempty(actLabels)
+	actLabels = {'Simple Walk','Walk with smth in the Hands'};
+end
+numEmotion = size(HMMCell,2);
+numActivity = size(HMMCell,1);
 if (numActivity ~= size(HMMCell,1))
     disp('!!!!!!!!error happened in function recognitionActivity_HMM at line 9!!!!!!');
 end
@@ -34,6 +37,9 @@ maxloglik = -inf;
 for indAct = 1:numActivity
     
     for indEm = s
+	if ~iscell(HMMCell{indAct,indEm})
+		continue;
+	end
         indEm
         indAct
         prior1 = HMMCell{indAct,indEm}{2,1};
@@ -45,7 +51,11 @@ for indAct = 1:numActivity
             mhmm_logprob(tmpdata, prior1, transmat1, mu1, Sigma1, mixmat1);
         loglik{indAct,1}
         newloglik = max(maxloglik,loglik{indAct,1})
-        
+		       
+ 		if newloglik ==-inf
+			prdtlabel = 'unknown'
+			prdLabelInd = numActivity+1;
+		end
         if(newloglik ~= maxloglik)
             prdtlabel = actLabels{1,indAct};
             prdLabelInd = indAct;

@@ -54,10 +54,10 @@ Accuracy_FPHMM_knownEm{indFold,1} = computeAccuracy(prdtLabelCell_FPHMM);
 end
 FPHMM_LABEL_KNOW_EM_CELL = FPHMM_LABEL_CELL;
 %% compute accuracy of all activity
-act = [1 2];
+%act = [1 2];
 CV_Accuracy_FPHMM_knownEm = cross_val_Accuracy(FPHMM_LABEL_KNOW_EM_CELL);
 [CV_Variance_FPHMM_knownEm, accuracy_FPHMM_knownEm] = cross_val_Variance(FPHMM_LABEL_KNOW_EM_CELL);
-CV_Accuracy_FPHMM_knownEm_SW_WH = compareTwoActivity(FPHMM_LABEL_KNOW_EM_CELL,act);
+%CV_Accuracy_FPHMM_knownEm_SW_WH = compareTwoActivity(FPHMM_LABEL_KNOW_EM_CELL,act);
 %% compare Simple Walk and Walk with smth in the Hands
 
 
@@ -112,10 +112,10 @@ Accuracy_FPHMM_unknownEm{indFold,1} = computeAccuracy(prdtLabelCell_FPHMM);
 end
 
 FPHMM_LABEL_UNKNOW_EM_CELL = FPHMM_LABEL_CELL;
-act = [1 2];
+%act = [1 2];
 CV_Accuracy_FPHMM_unknownEm = cross_val_Accuracy(FPHMM_LABEL_UNKNOW_EM_CELL);
 % CV_Emotion_Recog_Accuracy_unknownEm = cross_val_Accuracy %add a line for computing the emotion classification accuracy.
-CV_Accuracy_FPHMM_unknownEm_SW_WH = compareTwoActivity(FPHMM_LABEL_UNKNOW_EM_CELL,act);
+%CV_Accuracy_FPHMM_unknownEm_SW_WH = compareTwoActivity(FPHMM_LABEL_UNKNOW_EM_CELL,act);
 [CV_Variance_FPHMM_unknownEm, accuracy_FPHMM_unknownEm] = cross_val_Variance(FPHMM_LABEL_UNKNOW_EM_CELL);
 
 %% compute variance of K fold %%

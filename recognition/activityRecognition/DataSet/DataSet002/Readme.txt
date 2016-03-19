@@ -1,0 +1,2 @@
+
+Here,in this directory, all the datasets are scaled for each activity and do a 16-dimensional PCA reduction. But in fact, these datasets are not good or right, because the testsets are scaled and done by PCA for the corresponding training set which has the same activity label with the test set. This kind of processing make the testsets unable to be used for doing activity classification test. So I suggest to delelt these datasets someday.(after 5th May,2016)

@@ -17,3 +17,9 @@ warning: isstr is obsolete and will be removed from a future version of Octave, 
 warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMstats/mixgauss_prob.m: possible Matlab-style short-circuit operator at line 40, column 17
 warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/KPMtools/sqdist.m: possible Matlab-style short-circuit operator at line 20, column 17
 warning: /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/HMM/fwdback.m: possible Matlab-style short-circuit operator at line 126, column 16
+warning: print.m: fig2dev binary is not available.
+Some output formats are not available.
+warning: print.m: pstoedit binary is not available.
+Some output formats are not available.
+warning: range error for conversion to character value
+/usr/bin/gs: /data1/home/wang.qi/Application/lib/libtiff.so.5: no version information available (required by /lib64/libgs.so.9)

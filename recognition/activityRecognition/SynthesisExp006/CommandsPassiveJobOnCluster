@@ -1,0 +1,10 @@
+oarsub  -p  "host = 'karma1'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta001" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta001.m "
+oarsub  -p  "host = 'karma1'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta002" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta002.m "
+oarsub  -p  "host = 'decoda1'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta003" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta003.m "
+oarsub  -p  "host = 'decoda2'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta004" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta004.m "
+oarsub  -p  "host = 'decoda1'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta005" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta005.m "
+oarsub  -p  "host = 'videosense1'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta006" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta006.m "
+oarsub  -p  "host = 'videosense2'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta007" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta007.m "
+oarsub  -p  "host = 'videosense4'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta008" "octave ./test_BVH_ScaledOffset_JBS_PFMB_STh_12states_dim_theta008.m "
+
+oarsub -p "host = 'adnvideo1'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_RmFilrst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_HMM" "octave test_BVH_ScaledOffset_JBS_PFMB_STh_12states_HMM.m"

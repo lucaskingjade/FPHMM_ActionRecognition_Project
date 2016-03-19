@@ -1,0 +1,6 @@
+preprocessingData
+TrainingFPHMM_Synthesis
+TrainHMM4OneActivity_Synthesis
+TestFPHMM_Synthesis
+TestHMM4OneActivity_Synthesis
+TestEmotionAccuracy_Synthesis

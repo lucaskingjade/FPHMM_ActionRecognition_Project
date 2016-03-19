@@ -104,9 +104,10 @@ while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
             %%training a conventional HMM%%
             disp('train a conventional HMM')
 %             iter = max_iter;
-            [LL, prior1, transmat1, mu1, Sigma1, mixmat1] = ...
+tic           
+ [LL, prior1, transmat1, mu1, Sigma1, mixmat1] = ...
                 mhmm_em(data, prior0, transmat0, mu0, Sigma0, mixmat0, 'max_iter', FPHMM_HMM_init_Iter);
-            
+toc            
             [loglik(indAct,1), errors, gammaSet, alphaSet, betaSet, obslikSet] = mhmm_logprob(data, prior1, transmat1, mu1, Sigma1, mixmat1);
             previous_loglik(indAct,1) = loglik(indAct,1);
             disp('initialization finishing, saving all the initialized parameters...')
@@ -163,12 +164,15 @@ while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
         disp('compute W for each activity');
         fprintf('Iteration %d: compute W for activity %d\n',indIteration,indAct);
         hmmParameterSet = struct('prior1', priorCell{indAct,1}, 'transmat1', transmatCell{indAct,1}, 'mu1', muCell{indAct,1}, 'Sigma1', SigmaCell{indAct,1}, 'mixmat1', mixmatCell{indAct,1});
-
+		tic
         [LL, priorCell{indAct,1},transmatCell{indAct,1},muCell{indAct,1},SigmaCell{indAct,1}, mixmatCell{indAct,1}, WCell{indAct,1}, zSetCell{indAct,1}] = ...
             computeWmatrix(dataCell{indAct,1},thetasSet,gammaCell{indAct,1},hmmParameterSet,'transitionLeft2Right', left2rightHMMtopology,'verbose', 1);
+toc
         %update gamma
         contextualSignal = struct('contextualMean', 1, 'zSet', zSetCell(indAct,1), 'thetasSet', {thetasSet}, 'transitionLeft2Right',left2rightHMMtopology);
-        [ loglik(indAct,1), errors, gammaCell{indAct,1}, transmatCell{indAct,1}] = hmm_logprob_pHMM( dataCell{indAct,1}, priorCell{indAct,1}, transmatCell{indAct,1}, muCell{indAct,1}, SigmaCell{indAct,1}, mixmatCell{indAct,1}, contextualSignal );
+tic   
+     [ loglik(indAct,1), errors, gammaCell{indAct,1}, transmatCell{indAct,1}] = hmm_logprob_pHMM( dataCell{indAct,1}, priorCell{indAct,1}, transmatCell{indAct,1}, muCell{indAct,1}, SigmaCell{indAct,1}, mixmatCell{indAct,1}, contextualSignal );
+toc
         fprintf(1, 'W, iteration %d, loglik = %f\n', indIteration, loglik(indAct,1));
         converged(indAct,1) = em_converged(loglik(indAct,1), previous_loglik(indAct,1),1e-4);
         previous_loglik(indAct,1) = loglik(indAct,1);
@@ -302,8 +306,8 @@ end
 
 %%test FPHMM
 %TestFPHMM
-disp('FPHMM');
-save('-mat7-binary','K_CV.mat','K_CV_FPHMMCell');
+disp('training FPHMM has finished');
+%save('-mat7-binary','K_CV.mat','K_CV_FPHMMCell');
 
 
 %fprintf('%.2f%%\n',CV_Accuracy_FPHMM_knownEm(1,10)*100);

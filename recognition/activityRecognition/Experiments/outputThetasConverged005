@@ -1,0 +1,5228 @@
+GNU Octave, version 3.8.2
+Copyright (C) 2014 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-redhat-linux-gnu".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/get-involved.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+path0 = /data1/home/wang.qi/OctaveProject/
+path0 = /data1/home/wang.qi/OctaveProject/
+numActivity =  2
+numEmotion =  8
+'pca.m' is the file /data1/home/wang.qi/OctaveProject/fullyParameterizedHMM/HMMall/netlab3.3/pca.m
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  8x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  44x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  44x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  44x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  44x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   726
+
+ans =
+
+    69   726
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   256
+
+ans =
+
+    69   982
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   320
+
+ans =
+
+     69   1302
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   317
+
+ans =
+
+     69   1619
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   506
+
+ans =
+
+     69   2125
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   259
+
+ans =
+
+     69   2384
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   322
+
+ans =
+
+     69   2706
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   315
+
+ans =
+
+     69   3021
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   500
+
+ans =
+
+     69   3521
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   250
+
+ans =
+
+     69   3771
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   318
+
+ans =
+
+     69   4089
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   346
+
+ans =
+
+     69   4435
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   326
+
+ans =
+
+     69   4761
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   273
+
+ans =
+
+     69   5034
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   313
+
+ans =
+
+     69   5347
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   350
+
+ans =
+
+     69   5697
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   354
+
+ans =
+
+     69   6051
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   269
+
+ans =
+
+     69   6320
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   273
+
+ans =
+
+     69   6593
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   303
+
+ans =
+
+     69   6896
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   335
+
+ans =
+
+     69   7231
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   198
+
+ans =
+
+     69   7429
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   301
+
+ans =
+
+     69   7730
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   316
+
+ans =
+
+     69   8046
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   507
+
+ans =
+
+     69   8553
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   404
+
+ans =
+
+     69   8957
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   557
+
+ans =
+
+     69   9514
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   481
+
+ans =
+
+     69   9995
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   370
+
+ans =
+
+      69   10365
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   302
+
+ans =
+
+      69   10667
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   386
+
+ans =
+
+      69   11053
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   537
+
+ans =
+
+      69   11590
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   400
+
+ans =
+
+      69   11990
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   246
+
+ans =
+
+      69   12236
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   284
+
+ans =
+
+      69   12520
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   249
+
+ans =
+
+      69   12769
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   648
+
+ans =
+
+      69   13417
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   740
+
+ans =
+
+      69   14157
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   669
+
+ans =
+
+      69   14826
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   699
+
+ans =
+
+      69   15525
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   643
+
+ans =
+
+      69   16168
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   599
+
+ans =
+
+      69   16767
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   417
+
+ans =
+
+      69   17184
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   413
+
+ans =
+
+      69   17597
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   570
+
+ans =
+
+      69   18167
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   347
+
+ans =
+
+      69   18514
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   278
+
+ans =
+
+      69   18792
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   314
+
+ans =
+
+      69   19106
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   691
+
+ans =
+
+      69   19797
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   385
+
+ans =
+
+      69   20182
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   386
+
+ans =
+
+      69   20568
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   434
+
+ans =
+
+      69   21002
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   632
+
+ans =
+
+      69   21634
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   310
+
+ans =
+
+      69   21944
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   305
+
+ans =
+
+      69   22249
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   477
+
+ans =
+
+      69   22726
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1370
+
+ans =
+
+      69   24096
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1346
+
+ans =
+
+      69   25442
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   985
+
+ans =
+
+      69   26427
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   853
+
+ans =
+
+      69   27280
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   746
+
+ans =
+
+      69   28026
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   713
+
+ans =
+
+      69   28739
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1285
+
+ans =
+
+      69   30024
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1165
+
+ans =
+
+      69   31189
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1438
+
+ans =
+
+      69   32627
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1570
+
+ans =
+
+      69   34197
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1101
+
+ans =
+
+      69   35298
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   989
+
+ans =
+
+      69   36287
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   357
+
+ans =
+
+      69   36644
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   262
+
+ans =
+
+      69   36906
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   443
+
+ans =
+
+      69   37349
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   329
+
+ans =
+
+      69   37678
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   445
+
+ans =
+
+      69   38123
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   327
+
+ans =
+
+      69   38450
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   367
+
+ans =
+
+      69   38817
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   317
+
+ans =
+
+      69   39134
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   466
+
+ans =
+
+      69   39600
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   246
+
+ans =
+
+      69   39846
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   290
+
+ans =
+
+      69   40136
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   265
+
+ans =
+
+      69   40401
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   464
+
+ans =
+
+      69   40865
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   321
+
+ans =
+
+      69   41186
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   262
+
+ans =
+
+      69   41448
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   362
+
+ans =
+
+      69   41810
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   410
+
+ans =
+
+      69   42220
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   414
+
+ans =
+
+      69   42634
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   269
+
+ans =
+
+      69   42903
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   419
+
+ans =
+
+      69   43322
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   384
+
+ans =
+
+      69   43706
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   383
+
+ans =
+
+      69   44089
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   402
+
+ans =
+
+      69   44491
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   365
+
+ans =
+
+      69   44856
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   593
+
+ans =
+
+      69   45449
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   306
+
+ans =
+
+      69   45755
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   233
+
+ans =
+
+      69   45988
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   303
+
+ans =
+
+      69   46291
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   539
+
+ans =
+
+      69   46830
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   362
+
+ans =
+
+      69   47192
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   256
+
+ans =
+
+      69   47448
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   391
+
+ans =
+
+      69   47839
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   599
+
+ans =
+
+      69   48438
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   274
+
+ans =
+
+      69   48712
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   336
+
+ans =
+
+      69   49048
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   344
+
+ans =
+
+      69   49392
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   342
+
+ans =
+
+      69   49734
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   314
+
+ans =
+
+      69   50048
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   232
+
+ans =
+
+      69   50280
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   583
+
+ans =
+
+      69   50863
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   357
+
+ans =
+
+      69   51220
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   324
+
+ans =
+
+      69   51544
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   315
+
+ans =
+
+      69   51859
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   390
+
+ans =
+
+      69   52249
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   328
+
+ans =
+
+      69   52577
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   272
+
+ans =
+
+      69   52849
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   247
+
+ans =
+
+      69   53096
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   319
+
+ans =
+
+      69   53415
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   340
+
+ans =
+
+      69   53755
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   270
+
+ans =
+
+      69   54025
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   309
+
+ans =
+
+      69   54334
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   321
+
+ans =
+
+      69   54655
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   539
+
+ans =
+
+      69   55194
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   300
+
+ans =
+
+      69   55494
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   432
+
+ans =
+
+      69   55926
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   362
+
+ans =
+
+      69   56288
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   422
+
+ans =
+
+      69   56710
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   196
+
+ans =
+
+      69   56906
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   298
+
+ans =
+
+      69   57204
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   261
+
+ans =
+
+      69   57465
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   568
+
+ans =
+
+      69   58033
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   504
+
+ans =
+
+      69   58537
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   414
+
+ans =
+
+      69   58951
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   373
+
+ans =
+
+      69   59324
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   490
+
+ans =
+
+      69   59814
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   569
+
+ans =
+
+      69   60383
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   541
+
+ans =
+
+      69   60924
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   326
+
+ans =
+
+      69   61250
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   544
+
+ans =
+
+      69   61794
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   627
+
+ans =
+
+      69   62421
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   454
+
+ans =
+
+      69   62875
+
+currentEm = Joy
+currentEmotion = Joy
+ans =
+
+    69   403
+
+ans =
+
+      69   63278
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  8x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  8x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  8x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  36x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  36x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  36x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  36x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   685
+
+ans =
+
+      69   63963
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   410
+
+ans =
+
+      69   64373
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   407
+
+ans =
+
+      69   64780
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   437
+
+ans =
+
+      69   65217
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   532
+
+ans =
+
+      69   65749
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   376
+
+ans =
+
+      69   66125
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   376
+
+ans =
+
+      69   66501
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   411
+
+ans =
+
+      69   66912
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   891
+
+ans =
+
+      69   67803
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   383
+
+ans =
+
+      69   68186
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   389
+
+ans =
+
+      69   68575
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   460
+
+ans =
+
+      69   69035
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   533
+
+ans =
+
+      69   69568
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   583
+
+ans =
+
+      69   70151
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   594
+
+ans =
+
+      69   70745
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   685
+
+ans =
+
+      69   71430
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   639
+
+ans =
+
+      69   72069
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   602
+
+ans =
+
+      69   72671
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   593
+
+ans =
+
+      69   73264
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   686
+
+ans =
+
+      69   73950
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   751
+
+ans =
+
+      69   74701
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   358
+
+ans =
+
+      69   75059
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   721
+
+ans =
+
+      69   75780
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   455
+
+ans =
+
+      69   76235
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   587
+
+ans =
+
+      69   76822
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   222
+
+ans =
+
+      69   77044
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   447
+
+ans =
+
+      69   77491
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   358
+
+ans =
+
+      69   77849
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   484
+
+ans =
+
+      69   78333
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   404
+
+ans =
+
+      69   78737
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   282
+
+ans =
+
+      69   79019
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   431
+
+ans =
+
+      69   79450
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   377
+
+ans =
+
+      69   79827
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   354
+
+ans =
+
+      69   80181
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   355
+
+ans =
+
+      69   80536
+
+currentEm = Neutral
+currentEmotion = Neutral
+ans =
+
+    69   401
+
+ans =
+
+      69   80937
+
+tmpfileNamesList =
+
+  11x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  47x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  47x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  47x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  47x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   521
+
+ans =
+
+      69   81458
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   299
+
+ans =
+
+      69   81757
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   198
+
+ans =
+
+      69   81955
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   397
+
+ans =
+
+      69   82352
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   535
+
+ans =
+
+      69   82887
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   259
+
+ans =
+
+      69   83146
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   237
+
+ans =
+
+      69   83383
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   428
+
+ans =
+
+      69   83811
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   270
+
+ans =
+
+      69   84081
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   220
+
+ans =
+
+      69   84301
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   275
+
+ans =
+
+      69   84576
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   361
+
+ans =
+
+      69   84937
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   254
+
+ans =
+
+      69   85191
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   299
+
+ans =
+
+      69   85490
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   495
+
+ans =
+
+      69   85985
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1217
+
+ans =
+
+      69   87202
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1774
+
+ans =
+
+      69   88976
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1150
+
+ans =
+
+      69   90126
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1121
+
+ans =
+
+      69   91247
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   550
+
+ans =
+
+      69   91797
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   242
+
+ans =
+
+      69   92039
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   236
+
+ans =
+
+      69   92275
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   631
+
+ans =
+
+      69   92906
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   162
+
+ans =
+
+      69   93068
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   177
+
+ans =
+
+      69   93245
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   189
+
+ans =
+
+      69   93434
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   161
+
+ans =
+
+      69   93595
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   260
+
+ans =
+
+      69   93855
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   141
+
+ans =
+
+      69   93996
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   197
+
+ans =
+
+      69   94193
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   192
+
+ans =
+
+      69   94385
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1345
+
+ans =
+
+      69   95730
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   836
+
+ans =
+
+      69   96566
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1138
+
+ans =
+
+      69   97704
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1010
+
+ans =
+
+      69   98714
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   459
+
+ans =
+
+      69   99173
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   346
+
+ans =
+
+      69   99519
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   576
+
+ans =
+
+       69   100095
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   426
+
+ans =
+
+       69   100521
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   552
+
+ans =
+
+       69   101073
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   377
+
+ans =
+
+       69   101450
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   359
+
+ans =
+
+       69   101809
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   394
+
+ans =
+
+       69   102203
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1481
+
+ans =
+
+       69   103684
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   987
+
+ans =
+
+       69   104671
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+     69   1113
+
+ans =
+
+       69   105784
+
+currentEm = Panic Fear
+currentEmotion = Panic Fear
+ans =
+
+    69   880
+
+ans =
+
+       69   106664
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   783
+
+ans =
+
+       69   107447
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   385
+
+ans =
+
+       69   107832
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   365
+
+ans =
+
+       69   108197
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   406
+
+ans =
+
+       69   108603
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   721
+
+ans =
+
+       69   109324
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   286
+
+ans =
+
+       69   109610
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   359
+
+ans =
+
+       69   109969
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   359
+
+ans =
+
+       69   110328
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   609
+
+ans =
+
+       69   110937
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   320
+
+ans =
+
+       69   111257
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   322
+
+ans =
+
+       69   111579
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   295
+
+ans =
+
+       69   111874
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   623
+
+ans =
+
+       69   112497
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   499
+
+ans =
+
+       69   112996
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   647
+
+ans =
+
+       69   113643
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   769
+
+ans =
+
+       69   114412
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   462
+
+ans =
+
+       69   114874
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   364
+
+ans =
+
+       69   115238
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   372
+
+ans =
+
+       69   115610
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   513
+
+ans =
+
+       69   116123
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   471
+
+ans =
+
+       69   116594
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   425
+
+ans =
+
+       69   117019
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   337
+
+ans =
+
+       69   117356
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   539
+
+ans =
+
+       69   117895
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   714
+
+ans =
+
+       69   118609
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   407
+
+ans =
+
+       69   119016
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   658
+
+ans =
+
+       69   119674
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   565
+
+ans =
+
+       69   120239
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   617
+
+ans =
+
+       69   120856
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   327
+
+ans =
+
+       69   121183
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   712
+
+ans =
+
+       69   121895
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   471
+
+ans =
+
+       69   122366
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   539
+
+ans =
+
+       69   122905
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   487
+
+ans =
+
+       69   123392
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   656
+
+ans =
+
+       69   124048
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   513
+
+ans =
+
+       69   124561
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   402
+
+ans =
+
+       69   124963
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   652
+
+ans =
+
+       69   125615
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   540
+
+ans =
+
+       69   126155
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   597
+
+ans =
+
+       69   126752
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   600
+
+ans =
+
+       69   127352
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   741
+
+ans =
+
+       69   128093
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   673
+
+ans =
+
+       69   128766
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   641
+
+ans =
+
+       69   129407
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   640
+
+ans =
+
+       69   130047
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   592
+
+ans =
+
+       69   130639
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   552
+
+ans =
+
+       69   131191
+
+currentEm = Pride
+currentEmotion = Pride
+ans =
+
+    69   630
+
+ans =
+
+       69   131821
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  10x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  46x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  46x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  46x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  46x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   893
+
+ans =
+
+       69   132714
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   593
+
+ans =
+
+       69   133307
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   559
+
+ans =
+
+       69   133866
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   565
+
+ans =
+
+       69   134431
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   638
+
+ans =
+
+       69   135069
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   432
+
+ans =
+
+       69   135501
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   507
+
+ans =
+
+       69   136008
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   515
+
+ans =
+
+       69   136523
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   704
+
+ans =
+
+       69   137227
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   351
+
+ans =
+
+       69   137578
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   539
+
+ans =
+
+       69   138117
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   522
+
+ans =
+
+       69   138639
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1417
+
+ans =
+
+       69   140056
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1726
+
+ans =
+
+       69   141782
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1406
+
+ans =
+
+       69   143188
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1969
+
+ans =
+
+       69   145157
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   2387
+
+ans =
+
+       69   147544
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1688
+
+ans =
+
+       69   149232
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1748
+
+ans =
+
+       69   150980
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1883
+
+ans =
+
+       69   152863
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1449
+
+ans =
+
+       69   154312
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   558
+
+ans =
+
+       69   154870
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   757
+
+ans =
+
+       69   155627
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   701
+
+ans =
+
+       69   156328
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   998
+
+ans =
+
+       69   157326
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   720
+
+ans =
+
+       69   158046
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   705
+
+ans =
+
+       69   158751
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   683
+
+ans =
+
+       69   159434
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   655
+
+ans =
+
+       69   160089
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   587
+
+ans =
+
+       69   160676
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   688
+
+ans =
+
+       69   161364
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   653
+
+ans =
+
+       69   162017
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   587
+
+ans =
+
+       69   162604
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   571
+
+ans =
+
+       69   163175
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1185
+
+ans =
+
+       69   164360
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   710
+
+ans =
+
+       69   165070
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   674
+
+ans =
+
+       69   165744
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   750
+
+ans =
+
+       69   166494
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   986
+
+ans =
+
+       69   167480
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1543
+
+ans =
+
+       69   169023
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+     69   1100
+
+ans =
+
+       69   170123
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   998
+
+ans =
+
+       69   171121
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   972
+
+ans =
+
+       69   172093
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   950
+
+ans =
+
+       69   173043
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   833
+
+ans =
+
+       69   173876
+
+currentEm = Sadness
+currentEmotion = Sadness
+ans =
+
+    69   851
+
+ans =
+
+       69   174727
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   590
+
+ans =
+
+       69   175317
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   380
+
+ans =
+
+       69   175697
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   390
+
+ans =
+
+       69   176087
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   367
+
+ans =
+
+       69   176454
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   620
+
+ans =
+
+       69   177074
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   390
+
+ans =
+
+       69   177464
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   451
+
+ans =
+
+       69   177915
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   490
+
+ans =
+
+       69   178405
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   543
+
+ans =
+
+       69   178948
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   384
+
+ans =
+
+       69   179332
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   378
+
+ans =
+
+       69   179710
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   469
+
+ans =
+
+       69   180179
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+     69   1040
+
+ans =
+
+       69   181219
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   625
+
+ans =
+
+       69   181844
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   584
+
+ans =
+
+       69   182428
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   610
+
+ans =
+
+       69   183038
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   437
+
+ans =
+
+       69   183475
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   359
+
+ans =
+
+       69   183834
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   737
+
+ans =
+
+       69   184571
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   658
+
+ans =
+
+       69   185229
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   701
+
+ans =
+
+       69   185930
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   640
+
+ans =
+
+       69   186570
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   528
+
+ans =
+
+       69   187098
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   850
+
+ans =
+
+       69   187948
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   757
+
+ans =
+
+       69   188705
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   593
+
+ans =
+
+       69   189298
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   685
+
+ans =
+
+       69   189983
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   678
+
+ans =
+
+       69   190661
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   727
+
+ans =
+
+       69   191388
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   437
+
+ans =
+
+       69   191825
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   616
+
+ans =
+
+       69   192441
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   597
+
+ans =
+
+       69   193038
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   748
+
+ans =
+
+       69   193786
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   606
+
+ans =
+
+       69   194392
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   725
+
+ans =
+
+       69   195117
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   691
+
+ans =
+
+       69   195808
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+     69   1164
+
+ans =
+
+       69   196972
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   776
+
+ans =
+
+       69   197748
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   604
+
+ans =
+
+       69   198352
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   529
+
+ans =
+
+       69   198881
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   879
+
+ans =
+
+       69   199760
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   743
+
+ans =
+
+       69   200503
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   620
+
+ans =
+
+       69   201123
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   721
+
+ans =
+
+       69   201844
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   689
+
+ans =
+
+       69   202533
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   755
+
+ans =
+
+       69   203288
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   507
+
+ans =
+
+       69   203795
+
+currentEm = Shame
+currentEmotion = Shame
+ans =
+
+    69   625
+
+ans =
+
+       69   204420
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  8x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  44x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  44x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  44x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  44x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   263
+
+ans =
+
+       69   204683
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   316
+
+ans =
+
+       69   204999
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   312
+
+ans =
+
+       69   205311
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   278
+
+ans =
+
+       69   205589
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   267
+
+ans =
+
+       69   205856
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   311
+
+ans =
+
+       69   206167
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   260
+
+ans =
+
+       69   206427
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   237
+
+ans =
+
+       69   206664
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   223
+
+ans =
+
+       69   206887
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   190
+
+ans =
+
+       69   207077
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   261
+
+ans =
+
+       69   207338
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   305
+
+ans =
+
+       69   207643
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   378
+
+ans =
+
+       69   208021
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   320
+
+ans =
+
+       69   208341
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   252
+
+ans =
+
+       69   208593
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   346
+
+ans =
+
+       69   208939
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   676
+
+ans =
+
+       69   209615
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   321
+
+ans =
+
+       69   209936
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   339
+
+ans =
+
+       69   210275
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   388
+
+ans =
+
+       69   210663
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   328
+
+ans =
+
+       69   210991
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   263
+
+ans =
+
+       69   211254
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   276
+
+ans =
+
+       69   211530
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   409
+
+ans =
+
+       69   211939
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   631
+
+ans =
+
+       69   212570
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   467
+
+ans =
+
+       69   213037
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   646
+
+ans =
+
+       69   213683
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   481
+
+ans =
+
+       69   214164
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   696
+
+ans =
+
+       69   214860
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   443
+
+ans =
+
+       69   215303
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   679
+
+ans =
+
+       69   215982
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   432
+
+ans =
+
+       69   216414
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   405
+
+ans =
+
+       69   216819
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   302
+
+ans =
+
+       69   217121
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   311
+
+ans =
+
+       69   217432
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   279
+
+ans =
+
+       69   217711
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   450
+
+ans =
+
+       69   218161
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   301
+
+ans =
+
+       69   218462
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   520
+
+ans =
+
+       69   218982
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   658
+
+ans =
+
+       69   219640
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+     69   1095
+
+ans =
+
+       69   220735
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+     69   1140
+
+ans =
+
+       69   221875
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   884
+
+ans =
+
+       69   222759
+
+currentEm = Anger
+currentEmotion = Anger
+ans =
+
+    69   790
+
+ans =
+
+       69   223549
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+tmpfileNamesList =
+
+  12x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePath =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesList =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+filePathLs =
+
+  48x1 struct array containing the fields:
+
+    filePath
+
+fileNamesLs =
+
+  48x1 struct array containing the fields:
+
+    name
+    date
+    bytes
+    isdir
+    datenum
+    statinfo
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   354
+
+ans =
+
+       69   223903
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   279
+
+ans =
+
+       69   224182
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   387
+
+ans =
+
+       69   224569
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   420
+
+ans =
+
+       69   224989
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   443
+
+ans =
+
+       69   225432
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   421
+
+ans =
+
+       69   225853
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   505
+
+ans =
+
+       69   226358
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   571
+
+ans =
+
+       69   226929
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   400
+
+ans =
+
+       69   227329
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   354
+
+ans =
+
+       69   227683
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   406
+
+ans =
+
+       69   228089
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   541
+
+ans =
+
+       69   228630
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1558
+
+ans =
+
+       69   230188
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1730
+
+ans =
+
+       69   231918
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1450
+
+ans =
+
+       69   233368
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1344
+
+ans =
+
+       69   234712
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   642
+
+ans =
+
+       69   235354
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   624
+
+ans =
+
+       69   235978
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   524
+
+ans =
+
+       69   236502
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   641
+
+ans =
+
+       69   237143
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1104
+
+ans =
+
+       69   238247
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1143
+
+ans =
+
+       69   239390
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   1689
+
+ans =
+
+       69   241079
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+     69   2041
+
+ans =
+
+       69   243120
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   318
+
+ans =
+
+       69   243438
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   289
+
+ans =
+
+       69   243727
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   533
+
+ans =
+
+       69   244260
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   378
+
+ans =
+
+       69   244638
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   450
+
+ans =
+
+       69   245088
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   351
+
+ans =
+
+       69   245439
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   493
+
+ans =
+
+       69   245932
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   399
+
+ans =
+
+       69   246331
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   320
+
+ans =
+
+       69   246651
+
+currentEm = Anxiety
+currentEmotion = Anxiety
+ans =
+
+    69   251
+
+

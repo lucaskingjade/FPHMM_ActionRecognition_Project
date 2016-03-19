@@ -98,7 +98,7 @@ elseif theta_dim >= 3;
 end
 %plot and save figs
 allfigs = findall(0,'Type','figure')
-save_path = strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition/Experiments/Results/')
+save_path = strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition/',ExperimentName,'/Results/');
 if isRandomInit ==1
 	str1 = 'RandInit';
 else
@@ -115,5 +115,5 @@ save_file_name = strcat(save_path,num2str(numActivity),'Act_',num2str(numEmotion
     'Actors_',num2str(theta_dim),'thetadim_',str1,'_',str2,'_',num2str(FPHMM_HMM_init_Iter),'+',num2str(mxIter_FPHMM),'FPHMM_',num2str(timestr(1)),'_',num2str(timestr(2)),'_',...
 num2str(timestr(3)),'_',num2str(timestr(4)),'_',num2str(timestr(5)));
 
-saveas(allfigs,save_file_name,'png');
+%saveas(allfigs,save_file_name,'png');
 save('-mat7-binary',strcat(save_file_name,'.mat'));

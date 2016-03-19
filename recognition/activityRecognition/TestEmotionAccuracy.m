@@ -40,7 +40,7 @@ FPHMM_EMOTION_LABEL_CELL{indFold,1} = prdtEmotionLabel_FPHMM;
 Accuracy_of_Emotion_FPHMM{indFold,1} = computeAccuracy(prdtEmotionLabel_FPHMM);
 end
 
-act = [1 2];
+%act = [1 2];
 CV_Accuracy_Emotion_FPHMM = cross_val_Accuracy(FPHMM_EMOTION_LABEL_CELL);
 
 [CV_Variance_Emotion_FPHMM, accuracy_Emotion_FPHMM] = cross_val_Variance(FPHMM_EMOTION_LABEL_CELL);

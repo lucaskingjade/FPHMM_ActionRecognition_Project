@@ -8906,4 +8906,817 @@ Pride:[1.0936,0.8920,]
 Sadness:[-0.2126,0.3200,]
 Shame:[0.3589,0.5033,]
 Iteration 4 :compute W ...
-indAct is 1
+indAct is 1thetas, iteration 4, loglik = -670347.308142
+compute W for each activity
+Iteration 4: compute W for activity 1
+W, iteration 4, loglik = -669091.794489
+indAct is 2thetas, iteration 4, loglik = -789944.909018
+compute W for each activity
+Iteration 4: compute W for activity 2
+W, iteration 4, loglik = -788420.227444
+Iteration 4: compute thetas
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  37
+ans =
+
+   37    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  36
+ans =
+
+   36    1
+
+copmute theta with C ++
+curNumFiles =  32
+ans =
+
+   32    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+Iteration4 : Theta(Unnormalized): 
+Anger:[0.9091,0.7645,]
+Anxiety:[-1.1057,-1.3567,]
+Joy:[0.9946,0.7587,]
+Neutral:[-0.3005,-0.9633,]
+Panic Fear:[-0.2110,-0.1473,]
+Pride:[1.0998,0.8574,]
+Sadness:[-0.2954,0.2289,]
+Shame:[0.3485,0.5877,]
+Iteration 5 :compute W ...
+indAct is 1thetas, iteration 5, loglik = -668649.028752
+compute W for each activity
+Iteration 5: compute W for activity 1
+W, iteration 5, loglik = -668068.964727
+indAct is 2thetas, iteration 5, loglik = -786737.590678
+compute W for each activity
+Iteration 5: compute W for activity 2
+W, iteration 5, loglik = -786083.420454
+Iteration 5: compute thetas
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  37
+ans =
+
+   37    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  36
+ans =
+
+   36    1
+
+copmute theta with C ++
+curNumFiles =  32
+ans =
+
+   32    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+Iteration5 : Theta(Unnormalized): 
+Anger:[0.8695,0.6953,]
+Anxiety:[-1.1167,-1.3788,]
+Joy:[0.9942,0.7441,]
+Neutral:[-0.3714,-1.0113,]
+Panic Fear:[-0.1120,-0.0530,]
+Pride:[1.0861,0.8190,]
+Sadness:[-0.3557,0.1527,]
+Shame:[0.3640,0.6632,]
+Iteration 6 :compute W ...
+indAct is 1thetas, iteration 6, loglik = -668048.207680
+compute W for each activity
+Iteration 6: compute W for activity 1
+W, iteration 6, loglik = -667749.220306
+indAct is 2thetas, iteration 6, loglik = -785139.550508
+compute W for each activity
+Iteration 6: compute W for activity 2
+W, iteration 6, loglik = -784803.800210
+Iteration 6: compute thetas
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  37
+ans =
+
+   37    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  36
+ans =
+
+   36    1
+
+copmute theta with C ++
+curNumFiles =  32
+ans =
+
+   32    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+Iteration6 : Theta(Unnormalized): 
+Anger:[0.8407,0.6490,]
+Anxiety:[-1.1127,-1.3791,]
+Joy:[0.9972,0.7396,]
+Neutral:[-0.4198,-1.0464,]
+Panic Fear:[-0.0242,0.0378,]
+Pride:[1.0651,0.7811,]
+Sadness:[-0.4059,0.0867,]
+Shame:[0.3898,0.7275,]
+Iteration 7 :compute W ...
+indAct is 1thetas, iteration 7, loglik = -667816.460600
+******likelihood decreased from -667749.2203 to -667816.4606!
+compute W for each activity
+Iteration 7: compute W for activity 1
+W, iteration 7, loglik = -667603.322590
+indAct is 2thetas, iteration 7, loglik = -784197.225759
+compute W for each activity
+Iteration 7: compute W for activity 2
+W, iteration 7, loglik = -783948.622911
+Iteration 7: compute thetas
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  37
+ans =
+
+   37    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  36
+ans =
+
+   36    1
+
+copmute theta with C ++
+curNumFiles =  32
+ans =
+
+   32    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+Iteration7 : Theta(Unnormalized): 
+Anger:[0.8174,0.6129,]
+Anxiety:[-1.1015,-1.3687,]
+Joy:[1.0030,0.7408,]
+Neutral:[-0.4540,-1.0725,]
+Panic Fear:[0.0538,0.1215,]
+Pride:[1.0440,0.7474,]
+Sadness:[-0.4485,0.0310,]
+Shame:[0.4190,0.7824,]
+Iteration 8 :compute W ...
+indAct is 1thetas, iteration 8, loglik = -667675.733444
+******likelihood decreased from -667603.3226 to -667675.7334!
+compute W for each activity
+Iteration 8: compute W for activity 1
+W, iteration 8, loglik = -667518.119816
+indAct is 2thetas, iteration 8, loglik = -783516.970649
+compute W for each activity
+Iteration 8: compute W for activity 2
+W, iteration 8, loglik = -783348.378343
+Iteration 8: compute thetas
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  37
+ans =
+
+   37    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  36
+ans =
+
+   36    1
+
+copmute theta with C ++
+curNumFiles =  32
+ans =
+
+   32    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+Iteration8 : Theta(Unnormalized): 
+Anger:[0.7972,0.5834,]
+Anxiety:[-1.0847,-1.3523,]
+Joy:[1.0076,0.7430,]
+Neutral:[-0.4789,-1.0917,]
+Panic Fear:[0.1148,0.1886,]
+Pride:[1.0244,0.7179,]
+Sadness:[-0.4846,-0.0153,]
+Shame:[0.4473,0.8293,]
+Iteration 9 :compute W ...
+indAct is 1thetas, iteration 9, loglik = -667577.895685
+******likelihood decreased from -667518.1198 to -667577.8957!
+compute W for each activity
+Iteration 9: compute W for activity 1
+W, iteration 9, loglik = -667466.134448
+indAct is 2thetas, iteration 9, loglik = -783031.951048
+compute W for each activity
+Iteration 9: compute W for activity 2
+W, iteration 9, loglik = -782908.063047
+Iteration 9: compute thetas
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  37
+ans =
+
+   37    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  36
+ans =
+
+   36    1
+
+copmute theta with C ++
+curNumFiles =  32
+ans =
+
+   32    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+Iteration9 : Theta(Unnormalized): 
+Anger:[0.7815,0.5603,]
+Anxiety:[-1.0661,-1.3329,]
+Joy:[1.0113,0.7457,]
+Neutral:[-0.4959,-1.1046,]
+Panic Fear:[0.1722,0.2519,]
+Pride:[1.0071,0.6927,]
+Sadness:[-0.5157,-0.0552,]
+Shame:[0.4740,0.8694,]
+Iteration 10 :compute W ...
+indAct is 1thetas, iteration 10, loglik = -667534.821690
+******likelihood decreased from -667466.1344 to -667534.8217!
+compute W for each activity
+Iteration 10: compute W for activity 1
+W, iteration 10, loglik = -667459.091297
+indAct is 2thetas, iteration 10, loglik = -782640.288569
+compute W for each activity
+Iteration 10: compute W for activity 2
+W, iteration 10, loglik = -782569.362946
+saving FPHMM parameters... ... ...
+Iteration 10: compute thetas
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  28
+ans =
+
+   28    1
+
+copmute theta with C ++
+curNumFiles =  37
+ans =
+
+   37    1
+
+copmute theta with C ++
+curNumFiles =  35
+ans =
+
+   35    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  36
+ans =
+
+   36    1
+
+copmute theta with C ++
+curNumFiles =  32
+ans =
+
+   32    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+curNumFiles =  38
+ans =
+
+   38    1
+
+copmute theta with C ++
+Iteration10 : Theta(Unnormalized): 
+Anger:[0.7685,0.5418,]
+Anxiety:[-1.0471,-1.3123,]
+Joy:[1.0143,0.7489,]
+Neutral:[-0.5128,-1.1196,]
+Panic Fear:[0.2133,0.2985,]
+Pride:[0.9913,0.6705,]
+Sadness:[-0.5445,-0.0903,]
+Shame:[0.4961,0.9013,]
+Iteration 11 :compute W ...
+indAct is 1thetas, iteration 11, loglik = -667473.060612
+******likelihood decreased from -667459.0913 to -667473.0606!
+compute W for each activity
+Iteration 11: compute W for activity 1

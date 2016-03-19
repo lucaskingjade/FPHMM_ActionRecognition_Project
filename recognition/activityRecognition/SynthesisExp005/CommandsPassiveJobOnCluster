@@ -1,0 +1,8 @@
+oarsub  -p  "host = 'decoda3'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta001" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta001.m "
+oarsub  -p  "host = 'decoda3'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta002" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta002.m "
+oarsub  -p  "host = 'decoda3'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta003" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta003.m "
+oarsub  -p  "host = 'bolt3'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta004" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta004.m "
+oarsub  -p  "host = 'bolt3'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta005" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta005.m "
+oarsub  -p  "host = 'decoda2'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta006" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta006.m "
+oarsub  -p  "host = 'decoda2'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta007" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta007.m "
+oarsub  -p  "host = 'bolt3'" -l "{mem>12},core = 1,walltime = 200:0:0" -n "test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta008" "octave ./test_BVH_ScaledOffset_PrSW_AgLf_NTh_12states_dim_theta008.m "

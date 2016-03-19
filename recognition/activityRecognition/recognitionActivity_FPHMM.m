@@ -53,6 +53,12 @@ for indAct = 1:numActivity
             prdtlabel = actLabels{1,indAct};
             prdLabelInd = indAct;
         end
+        if (newloglik ==-inf)
+            prdEmotionLabel = 'unknown';
+            prdEmotionInd = 9;
+            prdtlabel = actLabels{1,indAct};
+            prdLabelInd = indAct;
+        end
         
         maxloglik = newloglik;
     end

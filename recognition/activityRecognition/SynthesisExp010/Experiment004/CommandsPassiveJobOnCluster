@@ -1,0 +1,12 @@
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta001" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta001.m"
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta002" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta002.m"
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta003" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta003.m"
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta004" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta004.m"
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta005" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta005.m"
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta006" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta006.m"
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta007" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta007.m"
+oarsub  -p  "host = 'adnvideo1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_dim_theta008" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_dim_theta008.m"
+
+oarsub  -p  "host = 'lifnode1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_HMM" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_HMM.m"
+
+oarsub  -p  "host = 'lifnode1' AND (gpu IS NULL)" -l "{mem>8},core = 1,walltime = 200:0:0" -n "test_BVH_RmFirst3Dims_UnScaledOffset_PrSW_AgWH_12states_HMM_EachEmAct" "octave ./test_BVH_2Activity_20PCA_MissPairs_PrSW_AgWH_12states_HMM_EachEmAct.m"

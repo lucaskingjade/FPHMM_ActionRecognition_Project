@@ -1,0 +1,9 @@
+oarsub  -p  "host = 'videosense1'" -l "{mem>8}[A,cpu = 2,walltime = 10:0:0" -n "testConvergenceThetas001" "octave ./testThetasConverged.m"
+
+oarsub  -p  "host = 'decoda1'" -l "{mem>12},core=3,walltime = 96:0:0" -n "testThetasConverged001" "octave ./testThetasConverged001.m" 
+oarsub  -p  "host = 'decoda2'" -l "{mem>12},core=3,walltime = 96:0:0" -n "testThetasConverged002" "octave ./testThetasConverged002.m" 
+oarsub  -p  "host = 'decoda3'" -l "{mem>12},core=3,walltime = 96:0:0" -n "testThetasConverged003" "octave ./testThetasConverged003.m" 
+oarsub  -p  "host = 'videosense1'" -l "{mem>12},core=3,walltime = 96:0:0" -n "testThetasConverged004" "octave ./testThetasConverged004.m" 
+oarsub  -p  "host = 'videosense2'" -l "{mem>12},core=3,walltime = 96:0:0" -n "testThetasConverged005" "octave ./testThetasConverged005.m" 
+oarsub  -p  "host = 'videosense1'" -l "{mem>12},core=3,walltime = 96:0:0" -n "testThetasConverged006" "octave ./testThetasConverged006.m" 
+

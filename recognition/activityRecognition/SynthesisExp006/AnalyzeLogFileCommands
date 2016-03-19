@@ -1,0 +1,3 @@
+more ./OAR.test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta006.193194.stdout |grep indAct |grep iteration |grep loglik ->FPHMM_loglikelihood.txt
+more ./OAR.test_BVH_RmFirst3Dims_UnScaledOffset_JBS_PFMB_STh_12states_dim_theta006.193194.stdout |grep ^iteration ->InitalizationLoglikelihood.txt
+

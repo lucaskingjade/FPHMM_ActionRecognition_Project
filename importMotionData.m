@@ -25,7 +25,7 @@ origin = newData;
 %     
 %     sampledData(i,:) = newData(10*i,:);
 % end
-newData = scaling(newData,1);
+% newData = scaling(newData,1);
 % newData = normr(newData);
 if (nargin == 2 && number<= size(newData,2) )
     %use PCA

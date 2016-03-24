@@ -1,0 +1,7 @@
+In this directory, the data files are one missing pair removed from training set. In addition, we subtract the frame by its mean pose for each actor. Pca is done for all sequences.
+
+NumberofActivity:all activities
+NumberofEmotion:all Emotions
+NumberofMissingPairs:one Missing pairs
+NumberofActor: all actors
+

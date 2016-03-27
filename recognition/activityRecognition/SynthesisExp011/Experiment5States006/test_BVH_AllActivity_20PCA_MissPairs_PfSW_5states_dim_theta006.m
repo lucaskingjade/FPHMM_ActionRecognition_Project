@@ -5,7 +5,7 @@ clear all
 clc
 
 ExperimentName = 'SynthesisExp011';
-subExperiment = 'Experiment5States004';
+subExperiment = 'Experiment5States006';
 path0 = getenv('FPHMM_PATH')
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition')));
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/ContextualModel')));
@@ -44,20 +44,20 @@ numActivity = size(activityCell,2);
 numActor = size(Names,2);
 numMissPair = size(MissingPairs,1);
 
-MissingStr = 'PfSW_RmFirst3Dims_Unscaled_MeanSubtracted_EachActor_';
-LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_Bvh_MeanSub_eachActor_PfSW.mat'
+MissingStr = 'PfSW_RmFirst3Dims_Unscaled_MeanSubtracted_EachActor_Centred_';
+LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_allTrainingSet_Bvh_MeanSub_eachActor_PfSW_Centered_004.mat';
 
 load(LoadDataName);
-theta_dim = 2;
+theta_dim = 6;
 contextualVector = cell(numEmotion,1);% save thetas values
-contextualVector{1,1} = [rand;rand];
-contextualVector{2,1} = [rand;rand];
-contextualVector{3,1} = [rand;rand];
-contextualVector{4,1} = [rand;rand];
-contextualVector{5,1} = [rand;rand];
-contextualVector{6,1} = [rand;rand];
-contextualVector{7,1} = [rand;rand];
-contextualVector{8,1} = [rand;rand];
+contextualVector{1,1} = [rand;rand;rand;rand;rand;rand];
+contextualVector{2,1} = [rand;rand;rand;rand;rand;rand];
+contextualVector{3,1} = [rand;rand;rand;rand;rand;rand];
+contextualVector{4,1} = [rand;rand;rand;rand;rand;rand];
+contextualVector{5,1} = [rand;rand;rand;rand;rand;rand];
+contextualVector{6,1} = [rand;rand;rand;rand;rand;rand];
+contextualVector{7,1} = [rand;rand;rand;rand;rand;rand];
+contextualVector{8,1} = [rand;rand;rand;rand;rand;rand];
 %isFixed = [0 0 0 1 0 0 0 0];
 
 TrainingFPHMM_Synthesis;
@@ -104,3 +104,5 @@ save('-mat7-binary',strcat(save_file_name,'.mat'),'accuracy_FPHMM_TrainSet_unkno
 save('-mat7-binary',strcat(save_file_name,'.mat'),'accuracy_FPHMM_ValSet_knownEm','-append');
 save('-mat7-binary',strcat(save_file_name,'.mat'),'accuracy_FPHMM_ValSet_unknownEm','-append');
 save('-mat-binary',strcat(save_file_name,'.mat'),'prdt*','-append');
+save('-mat-binary',strcat(save_file_name,'.mat'),'theta_dim','-append');
+save('-mat7-binary',strcat(save_file_name,'.mat'),'meanpose_TrainingSet','-append');

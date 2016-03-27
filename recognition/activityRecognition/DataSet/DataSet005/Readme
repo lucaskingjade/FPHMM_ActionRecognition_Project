@@ -5,3 +5,5 @@ NumberofEmotion:all Emotions
 NumberofMissingPairs:one Missing pairs
 NumberofActor: all actors
 
+Here, in this directory, all sequences in these files are processed by PCA by using all sequences in traing set. 
+There are two kinds of data files in this path. The files with an suffix of 'centered' means that data are centred before doing PCA. Other files without such suffix mean the data isn't centred. These data files should be deleted in the future.

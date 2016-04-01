@@ -3,6 +3,9 @@
 % max_iter = 10;
 %%counting sample numbers
 %count the sequence number of each activity
+if ~exist('orthogonal_constrain_W','var')
+	orthogonal_constrain_W = 0;
+end
 totalNumTraining = zeros(numActivity,1);
 parfor indAct = 1:numActivity
     for indEm = 1: numEmotion
@@ -88,8 +91,18 @@ while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
             %%training a conventional HMM%%
             disp('train a conventional HMM')
 %             iter = max_iter;
-            [LL, prior1, transmat1, mu1, Sigma1, mixmat1] = ...
+			mark =1;
+			while mark ==1
+            [LL, prior1, transmat1, mu1, Sigma1, mixmat1,mark] = ...
                 mhmm_em(data, prior0, transmat0, mu0, Sigma0, mixmat0, 'max_iter', FPHMM_HMM_init_Iter);
+            [mu0, Sigma0] = mixgauss_init(Q*M, data0, cov_type);%initialized mean(mu) and covariance(sigma)  
+%             clear data0
+            mu0 = reshape(mu0, [O Q M]);
+            Sigma0 = reshape(Sigma0, [O O Q M]);
+            end
+
+%            [LL, prior1, transmat1, mu1, Sigma1, mixmat1] = ...
+ %               mhmm_em(data, prior0, transmat0, mu0, Sigma0, mixmat0, 'max_iter', FPHMM_HMM_init_Iter);
             [loglik(indAct,1), errors, gammaSet, alphaSet, betaSet, obslikSet] = mhmm_logprob(data, prior1, transmat1, mu1, Sigma1, mixmat1);
             previous_loglik(indAct,1) = loglik(indAct,1);
             disp('initialization finishing, saving all the initialized parameters...')
@@ -197,7 +210,21 @@ zSetCell{indAct,1} = cell(Q,1);
 for q = 1:Q
     o_omega = tempContextualHMM{q,1};
     omega_omega = tempContextualHMM{q,2};
-    WCell{indAct,1}{q,1} = o_omega*(omega_omega^(-1));
+	%%added by wangqi at 30 March,2016
+	tmpW=o_omega*(omega_omega^(-1));
+    if orthogonal_constrain_W ==1
+        disp('the inner product of  unconstrained W is');
+        tmpW'*tmpW
+        [U_w,S_w,V_w] = svd(tmpW);
+        if size(V_w,1)~=theta_dim
+            error('\nDimension of V_w doesnt match with theta_dim, error happends in line 232:TrainindFPHMM_Synthesis.m\n');
+        end
+        WCell{indAct,1}{q,1} = U_w(:,1:theta_dim)*V_w';
+        disp('W_T*W = ')
+        WCell{indAct,1}{q,1}'*WCell{indAct,1}{q,1}
+    else
+        WCell{indAct,1}{q,1} = tmpW;
+    end 
     zSetCell{indAct,1}{q,1} = [WCell{indAct,1}{q,1} muCell{indAct,1}(:,q)]; %% it will be used to update sigam
 end
 %update Sigma of Parametric CHMM

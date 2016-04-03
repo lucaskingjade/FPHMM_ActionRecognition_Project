@@ -21,6 +21,7 @@ addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activity
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition/',ExperimentName)));
 
 left2rightHMMtopology = 0;
+cov_type = 'diag';
 orthogonal_constrain_W = 1;
 numStates = 5;
 numMix = 1;

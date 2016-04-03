@@ -71,8 +71,10 @@ while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
             Q = numStates;%state number
             M =numMix;%number of mixtures
             O = size(data0,1);%dimension of observation data
-            cov_type = 'full';% type of covariance matrix
-           
+            %cov_type = 'full';% type of covariance matrix
+           if ~exist('cov_type','var')
+		       cov_type = 'full';
+		   end
             prior0 = normalise(rand(Q,1));
             if left2rightHMMtopology ==0
                 transmat0 = mk_stochastic(rand(Q,Q));
@@ -94,7 +96,7 @@ while (indIteration <= mxIter_FPHMM) &&  ~(sum(converged)==numActivity+1)
 			mark =1;
 			while mark ==1
             [LL, prior1, transmat1, mu1, Sigma1, mixmat1,mark] = ...
-                mhmm_em(data, prior0, transmat0, mu0, Sigma0, mixmat0, 'max_iter', FPHMM_HMM_init_Iter);
+                mhmm_em(data, prior0, transmat0, mu0, Sigma0, mixmat0, 'max_iter', FPHMM_HMM_init_Iter,'cov_type',cov_type);
             [mu0, Sigma0] = mixgauss_init(Q*M, data0, cov_type);%initialized mean(mu) and covariance(sigma)  
 %             clear data0
             mu0 = reshape(mu0, [O Q M]);

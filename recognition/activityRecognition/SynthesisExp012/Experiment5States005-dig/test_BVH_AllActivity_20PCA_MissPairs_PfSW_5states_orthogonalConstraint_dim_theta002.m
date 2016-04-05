@@ -5,7 +5,7 @@ clear all
 clc
 
 ExperimentName = 'SynthesisExp012';
-subExperiment = 'Experiment5States003'
+subExperiment = 'Experiment5States005-dig';
 path0 = getenv('FPHMM_PATH')
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition')));
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/ContextualModel')));
@@ -47,19 +47,19 @@ numActor = size(Names,2);
 numMissPair = size(MissingPairs,1);
 
 MissingStr = 'PfSW_RmFirst3Dims_Unscaled_MeanSubtracted_EachActor_Centred_';
-LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_allTrainingSet_Bvh_MeanSub_eachActor_PfSW_Centered_003.mat';
+LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_allTrainingSet_Bvh_MeanSub_eachActor_PfSW_Centered_005.mat';
 
 load(LoadDataName);
-theta_dim = 3;
+theta_dim = 2;
 contextualVector = cell(numEmotion,1);% save thetas values
-contextualVector{1,1} = [rand;rand;rand];
-contextualVector{2,1} = [rand;rand;rand];
-contextualVector{3,1} = [rand;rand;rand];
-contextualVector{4,1} = [rand;rand;rand];
-contextualVector{5,1} = [rand;rand;rand];
-contextualVector{6,1} = [rand;rand;rand];
-contextualVector{7,1} = [rand;rand;rand];
-contextualVector{8,1} = [rand;rand;rand];
+contextualVector{1,1} = [rand;rand];
+contextualVector{2,1} = [rand;rand];
+contextualVector{3,1} = [rand;rand];
+contextualVector{4,1} = [rand;rand];
+contextualVector{5,1} = [rand;rand];
+contextualVector{6,1} = [rand;rand];
+contextualVector{7,1} = [rand;rand];
+contextualVector{8,1} = [rand;rand];
 %isFixed = [0 0 0 1 0 0 0 0];
 
 TrainingFPHMM_Synthesis;

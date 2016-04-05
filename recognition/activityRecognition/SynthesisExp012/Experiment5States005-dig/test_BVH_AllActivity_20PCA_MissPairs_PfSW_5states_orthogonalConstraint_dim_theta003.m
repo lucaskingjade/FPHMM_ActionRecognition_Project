@@ -5,7 +5,7 @@ clear all
 clc
 
 ExperimentName = 'SynthesisExp012';
-subExperiment = 'Experiment5States003'
+subExperiment = 'Experiment5States005-dig';
 path0 = getenv('FPHMM_PATH')
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition')));
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/ContextualModel')));
@@ -47,7 +47,7 @@ numActor = size(Names,2);
 numMissPair = size(MissingPairs,1);
 
 MissingStr = 'PfSW_RmFirst3Dims_Unscaled_MeanSubtracted_EachActor_Centred_';
-LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_allTrainingSet_Bvh_MeanSub_eachActor_PfSW_Centered_003.mat';
+LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_allTrainingSet_Bvh_MeanSub_eachActor_PfSW_Centered_005.mat';
 
 load(LoadDataName);
 theta_dim = 3;

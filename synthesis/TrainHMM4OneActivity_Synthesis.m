@@ -1,11 +1,13 @@
 %% Training HMM
 %%training conventional HMM for each activity and emotion pair%%
 HMMCell = cell(numActivity,1);
-
+if ~exist('cov_type','var');
+	cov_type = 'full';
+end
 parfor indAct =1:numActivity
         HMMCell{indAct,1} = cell(6,1);
         [LL, prior1, transmat1, mu1, Sigma1, mixmat1] = ...
-            trainingConventionHMM(TrainDataSet_HMM{indAct,1},numStates,numMix,max_iter,left2rightHMMtopology);
+            trainingConventionHMM(TrainDataSet_HMM{indAct,1},numStates,numMix,max_iter,left2rightHMMtopology,cov_type);
         HMMCell{indAct,1}{1,1} = LL;
         HMMCell{indAct,1}{2,1} = prior1;
         HMMCell{indAct,1}{3,1} = transmat1;

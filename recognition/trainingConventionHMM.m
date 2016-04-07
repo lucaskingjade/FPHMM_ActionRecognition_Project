@@ -1,4 +1,4 @@
-function [LL, prior1, transmat1, mu1, Sigma1, mixmat1] = trainingConventionHMM(trainingData,numStates,numMixtures,max_iter,left2rightHMMtopology)
+function [LL, prior1, transmat1, mu1, Sigma1, mixmat1] = trainingConventionHMM(trainingData,numStates,numMixtures,max_iter,left2rightHMMtopology,cov_type)
 %UNTITLED8 Summary of this function goes here
 %   Detailed explanation goes here
 %% ==== prepare the data for conventional HMM Recognition===== %%
@@ -12,7 +12,10 @@ data = trainingData;
 for i = 1:nex
     data0 =[data0,data{i,1}]; 
 end
-cov_type = 'full';
+if ~exist('cov_type','var')
+	cov_type = 'full';
+end
+%cov_type = 'full';
 
 O = size(data0,1);
 

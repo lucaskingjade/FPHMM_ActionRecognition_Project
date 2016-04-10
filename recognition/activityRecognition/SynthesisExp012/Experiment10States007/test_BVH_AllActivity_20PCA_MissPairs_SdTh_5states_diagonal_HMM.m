@@ -5,7 +5,7 @@ clear all
 clc
 
 ExperimentName ='SynthesisExp012';
-subExperiment = 'Experiment5States002';
+subExperiment = 'Experiment5States007';
 
 path0 = getenv('FPHMM_PATH')
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition')));
@@ -29,7 +29,7 @@ max_iter = 25;
 
 emotionCell = {'Anger','Anxiety','Joy','Neutral','Panic Fear','Pride','Sadness','Shame'};
 activityCell = {'Being Seated','Sitting Down','Knocking on the Door','Lift','Move Books','Simple Walk','Throw','Walk with smth in the Hands'};
-MissingPairs = {'Joy','Walk with smth in the Hands'};
+MissingPairs = {'Sadness','Throw'};
 Names = {'Brian','Elie','Florian','Hu','Janina','Jessica','Maria','Muriel','Robert','Sally','Samih','Tatiana'}
 TestProportion = 0.3;
 TrainingProportion = 0.7;
@@ -40,8 +40,8 @@ numActivity = size(activityCell,2);
 numActor = size(Names,2);
 numMissPair = size(MissingPairs,1);
 
-MissingStr = 'JyWH_RmFirst3Dims_Unscaled_MeanSubtracted_eachAtor_eachActivity_Centred';
-LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_allTrainingSet_Bvh_MeanSub_eachActor_JyWH_Centered_001.mat';
+MissingStr = 'SdTh_RmFirst3Dims_Unscaled_MeanSubtracted_eachAtor_eachActivity_Centred';
+LoadDataName = 'DataSetOffSet4thDim_RmFirst3Dims_UnScaled_20PCA_allTrainingSet_Bvh_MeanSub_eachActor_SdTh_Centered_001.mat';
 load(LoadDataName);
 
 TrainHMM4OneActivity_Synthesis

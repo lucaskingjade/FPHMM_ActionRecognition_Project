@@ -5,7 +5,7 @@ clear all
 clc
 
 ExperimentName ='SynthesisExp012';
-subExperiment = 'Experiment5States002';
+subExperiment = 'Experiment10States002';
 
 path0 = getenv('FPHMM_PATH')
 addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activityRecognition')));
@@ -23,7 +23,7 @@ addpath(genpath(strcat(path0,'fullyParameterizedHMM/Project/recognition/activity
 
 left2rightHMMtopology = 0;
 cov_type = 'diag';
-numStates = 5;
+numStates = 10;
 numMix = 1;
 max_iter = 25;
 
